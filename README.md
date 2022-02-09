@@ -5,6 +5,8 @@
 >This template was made to make it easier to start working with Flask and docker and to save you time. I got you covered, now start coding 👨‍💻 ☕
 > ### Author
 > Kristijan Vidović
+> ### See website in action
+> Visit this [link](https://flask-docker-j75gu.ondigitalocean.app/) to see the template in action.
 
 > ## Folder structure
 > - [**setup**](setup)

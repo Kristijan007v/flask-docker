@@ -16,10 +16,12 @@
 
 > ## Prerequsites
 > To get started make sure you have Python 3 installed on your system (version 3.10), if not you can download it [here.](https://www.python.org/) You have to have Python PATH set if you are using Windows to be able to use "python" command. See instructions [here.](https://www.python.org/) You need to have [Docker for Windows](https://docs.docker.com/desktop/windows/install/) installed on your PC.
-> ## Getting started
-> To get started make sure you have Python 3 installed on your system (version 3.10), if not you can download it [here.](https://www.python.org/)
 > ### Optional
 > Installed [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) VS Code exstensions if you are using VS Code as you code editor.
+
+> ## Getting started
+> To get started make sure you have Python 3 installed on your system (version 3.10), if not you can download it [here.](https://www.python.org/)
+
 
 > ## Installation and setup
 > 1. **First we need to setup virtual environment** (This step is optional)\

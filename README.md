@@ -20,7 +20,7 @@
 > Installed [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) VS Code exstensions if you are using VS Code as you code editor.
 
 > ## Getting started
-> To get started make sure you have Python 3 installed on your system (version 3.10), if not you can download it [here.](https://www.python.org/)
+> To get started open up your VS Code or your prefered editor and follow my instruction, feel free to drink coffe ☕ as you follow my setup along.
 
 
 > ## Installation and setup

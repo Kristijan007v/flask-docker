@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block head %} {% if title %}
+    <title>Home World{{ title }}</title>
+    {% else %}
+    <title>Home World</title>
+    {% endif %}
+
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename='favicon.png') }}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='dist/css/main.css') }}"
+    />
+    {% endblock %}
+  </head>
+  <body>
+
+    <!-- Message flashing -->
+    {% with messages = get_flashed_messages() %} {% if messages %}
+    <div>
+      {% for message in messages %}
+      <span>{{ message }}</span>
+      {% endfor %}
+    </div>
+    {% endif %} {% endwith %}
+
+    <!-- Flashing with filters  -->
+    {% with errors = get_flashed_messages(category_filter=["error"]) %} {% if
+    errors %}
+    <div>
+      <!-- <a class="close" href="#">×</a> -->
+      <ul>
+        {%- for msg in errors %}
+        <li>{{ msg }}</li>
+        {% endfor -%}
+      </ul>
+    </div>
+    {% endif %} {% endwith %}
+
+
+    <!-- Main app content here -->
+    <div">
+      {% block content %}
+      
+      {% endblock %}
+    </div>
+
+    <!-- JS scripts -->
+    {% block scripts %}
+
+    {% endblock %}
+  </body>
+</html>

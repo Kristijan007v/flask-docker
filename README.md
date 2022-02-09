@@ -61,5 +61,6 @@
 > python app.py
 >```
 > Now you can visit [127.0.0.1:5000](http://127.0.0.1:5000/) to view your Flask app
+
 > ## Contact me
 > Feel free to contact me on my personal email vidovic@kristijan.me or using the contact form on my [personal website.](https://kristijan.me) 😊
